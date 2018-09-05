@@ -1,0 +1,69 @@
+#header {
+    background-color:steelblue;
+    text-align:center;
+    padding: 20px 0;
+    line-height:1.1;
+}
+
+body {
+    margin: 0;
+    background-color: #232323;
+
+}
+
+#stripe {
+    background-color:white;
+    height:30px;
+    text-align:center;
+}
+#reset {
+    border: none;
+    background:none;
+    height:100%;
+    font-weight:700;
+    letter-spacing:1px;
+    width:40%;
+    border:none;
+    outline:none;
+}
+
+.dice {
+    width: 28%;
+    background:steelblue;
+    padding-bottom:28%;
+    float:left;
+    margin:2%;
+    border-radius:10%;
+    text-align:center;
+    height:10px;
+    position:relative;
+    border: 3px solid transparent;
+
+}
+#container {
+    margin:20px auto;
+    max-width:800px;
+}
+
+.number {
+    position:absolute;
+    top:40%;
+    font-size:36px;
+
+}
+#score {
+    display:inline-block;
+    width:40%;
+}
+
+.selected {
+    border:3px solid red;
+}
+
+#finishRoll {
+    float:right;
+}
+
+.currentRoundScore {
+    color:white;
+}
